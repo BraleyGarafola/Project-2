@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Responsive Layouts</title>
-  <meta name="description" content="This site will serve as the hub for many sub responsive layouts">
+  <title>Blue Sea Jewelry</title>
+  <meta name="description" content="This site is used to show the style of a jewelry website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -18,14 +18,44 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
   <meta name="theme-color" content="#fafafa">
-</head>
+</head> 
 
 <body>
-  <!-- Place your site's HTML here -->
-  <p>This text will display on your site! Jan 19</p>
-  <script src="js/main.js"></script>
+  <div class="monday-soap" id="myTopnav">
+    <a href="./index.html" class="active">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./commerce.html">Commnerce</a>
+    <a href="javascript:void(0);" class="icon" onclick="mySecondFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="Logo">
+  <img src="img/Logo 2S.png" alt="" style="width: 25%;">
+</div>
+  <div class="Top.Image">
+    <img src="img/Girlsjewelry.png" style="width:100%;">
+      <h1>20% off Storewide</h1>
+    </div>
+  </div>
+
+<!--- Contact form-->
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+<label for="story">Your Message:</label>
+
+<textarea id="story" name="story" rows="" cols="33">
+What can we help you with?
+</textarea>
+<script src="js/main.js"></script>
+  </body>
 </body>
 
 </html>
