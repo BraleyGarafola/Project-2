@@ -1,9 +1,9 @@
 // JS scripts placed here
 function mySecondFunction() {
     var x = document.getElementById("myTopnav");
-    if (x.className === "monday-soap") {
+    if (x.className === "header") {
         x.className += " responsive";
     } else {
-        x.className = "monday-soap";
+        x.className = "header";
     }
 }
