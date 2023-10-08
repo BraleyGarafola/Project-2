@@ -51,8 +51,8 @@
   .header2 {
     justify-content: space-between;
   }
-  .header a:not(:first-child) {display: none;}
-  .header a.icon {
+  .header2 a:not(:first-child) {display: none;}
+  .header2 a.icon {
     float: right;
     display: block;
   }
@@ -93,16 +93,16 @@ body {
   }
 }
 
-@media (min-width: 481px) {
+
 h1 {
   font-family: Arial;
   font-weight: 500;
   font-size: 80px;
-  margin-top: -40px;
+  margin-top: -400px;
   margin-left: 400px;
   color: white;
 }
-}
+
 
 @media (min-width: 481px) {
 .shop-wrapper{
@@ -122,7 +122,6 @@ h1 {
 }
 }
 
-@media (min-width: 481px) {
 h2 {
   font-family: Arial;
   display: flex;
@@ -131,9 +130,7 @@ h2 {
   color: white;
   margin-top: 30px;
 }
-}
 
-@media (min-width: 481px) {
 p {
   font-family: Arial;
   text-align: center;
@@ -144,5 +141,4 @@ p {
   margin-right: 400px;
   color: white;
   padding: 14px 16px;
-}
 }
