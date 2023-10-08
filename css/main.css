@@ -73,46 +73,56 @@
   }
 }
 
+@media (min-width: 481px) {
 body {
     margin: 0;
     font-family: 'Arial'; 
   }
+}
 
-
+@media (min-width: 481px) {
   .active {
     margin-left: -20px;
   }
-  
+}
+
+@media (min-width: 481px) {
   .top.image {
     position: absolute;
    
   }
+}
 
+@media (min-width: 481px) {
 h1 {
   font-family: Arial;
   font-weight: 500;
   font-size: 80px;
-  top: 430px;
-  left: 850px;
-  transform: translate(-50%, -50%);
+  margin-top: -40px;
+  margin-left: 400px;
   color: white;
-
+}
 }
 
+@media (min-width: 481px) {
 .shop-wrapper{
     display: flex;
     background:  rgb(36, 120, 159);
     flex-direction: column;
     height: 300px;
 }
+}
 
+@media (min-width: 481px) {
 .mission-wrapper {
   display: flex;
   background: rgb(36, 120, 159);
   flex-direction: column;
   height: 300px;
 }
+}
 
+@media (min-width: 481px) {
 h2 {
   font-family: Arial;
   display: flex;
@@ -121,7 +131,9 @@ h2 {
   color: white;
   margin-top: 30px;
 }
+}
 
+@media (min-width: 481px) {
 p {
   font-family: Arial;
   text-align: center;
@@ -132,4 +144,5 @@ p {
   margin-right: 400px;
   color: white;
   padding: 14px 16px;
+}
 }
