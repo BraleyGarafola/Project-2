@@ -26,7 +26,6 @@
 @media (max-width: 480px) {
   .header2 {
     display: flex;
-    margin-right: 10px;
     justify-content: right;
   }
 }
@@ -93,9 +92,7 @@ body {
   @media (max-width: 480px) {
   h1 {
     font-weight: 500;
-    font-size: 80px;
-    margin-top: -450px;
-    margin-left: 400px;
+    font-size: 30px;
     color: rgb(244, 74, 74);
     text-transform: uppercase;
   }
