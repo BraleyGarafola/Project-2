@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .header {
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
   justify-content: right;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .header2 {
     display: flex;
     justify-content: right;
