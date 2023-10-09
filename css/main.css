@@ -92,6 +92,8 @@ body {
   @media screen and (max-width: 480px) {
   h1 {
     font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
     color: rgb(244, 74, 74);
     text-transform: uppercase;
   }
