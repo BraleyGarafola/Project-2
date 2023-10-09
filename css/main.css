@@ -27,7 +27,7 @@
   .header2 {
     display: flex;
     margin-top: -70px;
-    margin-right: 50px;
+    margin-right: 10px;
     margin-bottom: 20px;
     justify-content: right;
   }
@@ -59,7 +59,7 @@
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the monday-soap (.icon) */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .header2 {
     justify-content: space-between;
   }
@@ -71,7 +71,7 @@
 }
 
 /* The "responsive" class is added to the monday-soap with JavaScript when the user clicks on the icon. This class makes the monday-soap look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .header2.responsive {position: relative;}
   .header2.responsive a.icon {
     position: absolute;
