@@ -315,8 +315,9 @@ h4{
   }
 
 .lindsey{
+position: absolute;
 margin-left: 1100px;
-margin-top: -600px;
+margin-top: -550px;
 }
 
 .signup-wrapper {
@@ -339,6 +340,7 @@ margin-top: -600px;
 }
 
 .form{
+position: absolute;
 margin-top: -70px ;
 text-align: center;
 font-size: 40px;
