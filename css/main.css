@@ -340,7 +340,6 @@ margin-top: -550px;
 }
 
 .form{
-position: absolute;
 margin-top: -70px ;
 text-align: center;
 font-size: 40px;
@@ -362,6 +361,7 @@ color: rgb(36, 120, 159);
   margin-bottom: -350px;
   height: 270px;
   width: 1855px;
+  margin-left: -80px;
   background-color: rgb(129, 189, 182);
 }
 
