@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) and (max-width: 767px)  {
   .header {
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
   justify-content: right;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) and (max-width: 767px)  {
   .header2 {
     display: flex;
     justify-content: right;
@@ -57,7 +57,7 @@ body {
   font-family: Arial; 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 300px) and (max-width: 767px)  {
   body {
     background-color: #ffffff;
   }
@@ -69,6 +69,12 @@ body {
     text-transform: uppercase;
   }
 
+  @media (max-width: 300px) and (max-width: 767px)  {
+  h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+  }
+}
 
 h2{
   font-family: Arial;
@@ -77,10 +83,28 @@ h2{
   font-size: 20px;
 }
 
+@media (max-width: 300px) and (max-width: 767px)  {
+h2{
+  font-family: Arial;
+  display: flex;
+  font-weight: 400;
+  font-size: 20px;
+ }
+}
+
+
 h3 {
   display: flex;
   font-size: 70px;
   justify-content: center;
+}
+
+@media (max-width: 300px) and (max-width: 767px)  {
+h3 {
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+ }
 }
 
 h4{
@@ -89,6 +113,16 @@ h4{
   font-family: Arial;
   text-align: center;
   text-transform: uppercase;
+}
+
+@media (max-width: 300px) and (max-width: 767px)  {
+h4{
+  display: flex;
+  font-size: 40px;
+  font-family: Arial;
+  text-align: center;
+  text-transform: uppercase;
+ }
 }
 
 .hero-text {
@@ -106,7 +140,7 @@ h4{
   align-items: center;
 }
 
-  @media (max-width: 480px) {
+@media (max-width: 300px) and (max-width: 767px)  {
 .jewelry-wrapper { 
   align-items: center;
   display: flex;
@@ -123,7 +157,7 @@ h4{
   gap: 50px;
   }
   
-  @media (min-width: 481px) and (max-width: 767px) {
+  @media (max-width: 300px) and (max-width: 767px)  {
   .container { display: flex;
   align-items: center;
   margin-top: auto;
