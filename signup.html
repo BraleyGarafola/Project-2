@@ -24,14 +24,17 @@
   <meta name="theme-color" content="#fafafa">
 </head> 
 
-<body>
-    <div class="header" id="myTopnav">
-        <a href="./index.html" class="Logo"> <img src="img/LogoPNG.gif" alt="" style="width: 50%;"> </a>
-      </div>
-      <div class="header2" id="myTopnav">
-        <a href="./mission.html">About Us</a>
-        <a href="./signup.html"> Sign Up </a>
+<body class="Blue-Body">
+  <header class="Blue-header">
+  <div class="Blue-nav" id="myTopnav">
+    <a href="./index.html" class="active"> <img class="Blue-logo"> <img src="img/LogoPNG.gif" alt="" width="170" height="80"> </a>
   </div>
+  <div class="Blue-nav2" id="myTopnav2">
+    <a href="./mission.html">About Us</a>
+    <a href="./signup.html"> Sign Up </a>
+    
+ </div>
+</header>
 
   <div class="signup-wrapper">
     <div class="signup"> 
@@ -46,7 +49,7 @@
       <label for="fname">First Name:</label>
       <input type="text" id="fname" name="fname"><br><br>
       <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname"><br><br>
+      <input type="email" id="lname" name="lname"><br><br>
       <label for="email">Your Email:</label>
       <input type="text" id="email" name="email" required><br><br>
       <input type="submit" value="Submit">
