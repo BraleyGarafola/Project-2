@@ -363,7 +363,7 @@ p{
 /* The dots/bullets/indicators */
 .dot {
   cursor: auto;
-  height: 1px;
+  height: 15px;
   width: 15px;
   background-color:#3f9599;
   border-radius: 50%;
@@ -478,6 +478,7 @@ margin-top: 100px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 60px;
   margin-bottom: 100px;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
