@@ -499,3 +499,9 @@ margin-top: 100px;
 .main-images{
   width: 100%;
 }
+
+@media (max-width: 480px) {
+.main-images{
+  width: 50%;
+}
+}
