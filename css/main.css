@@ -584,7 +584,8 @@ margin-right: auto;
 
 .Blue-footer-2{
   text-align: center;
- margin-top: 350px;
+
+  margin-top: 350px;
 }
 
 .shop-link{
@@ -629,4 +630,12 @@ margin-right: auto;
       }
     }
 
+.gif-image{
+  width: 50%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
 
